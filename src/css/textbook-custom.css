@@ -1,0 +1,161 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed for
+ * content-centric websites.
+ */
+
+/* You can override the classic template styles here. */
+:root {
+  --ifm-color-primary: #2d5a87;
+  --ifm-color-primary-dark: #274e79;
+  --ifm-color-primary-darker: #254a71;
+  --ifm-color-primary-darkest: #1e3c5c;
+  --ifm-color-primary-light: #336295;
+  --ifm-color-primary-lighter: #35679d;
+  --ifm-color-primary-lightest: #3b72ac;
+  --ifm-code-font-size: 95%;
+  
+  /* Textbook specific colors */
+  --textbook-color-header: #2c3e50;
+  --textbook-color-content: #34495e;
+  --textbook-color-accent: #3498db;
+  --textbook-color-highlight: #ecf0f1;
+  --textbook-color-border: #bdc3c7;
+}
+
+/* Custom styles for textbook content */
+.textbook-content {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.7;
+}
+
+.textbook-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 4px solid var(--textbook-color-accent);
+  background-color: var(--textbook-color-highlight);
+  border-radius: 0 4px 4px 0;
+}
+
+.textbook-definition {
+  background-color: #e8f4fc;
+  border: 1px solid #b3d9f2;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.textbook-example {
+  background-color: #f0f9f3;
+  border: 1px solid #c8e6d2;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.textbook-aside {
+  background-color: #fef9e7;
+  border: 1px solid #fae588;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Custom styles for learning objectives */
+.learning-objectives-container {
+  background-color: #e8f4fc;
+  border-left: 4px solid #3498db;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.learning-objectives-list {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.learning-objectives-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Custom styles for key takeaways */
+.key-takeaways-container {
+  background-color: #e8fcf2;
+  border-left: 4px solid #2ecc71;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.key-takeaways-list {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+/* Custom styles for practice questions */
+.practice-questions-container {
+  background-color: #fdf2e9;
+  border-left: 4px solid #e67e22;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.practice-question {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.practice-question:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.practice-options {
+  margin-top: 0.75rem;
+}
+
+.practice-option {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.practice-option:hover {
+  background-color: #f8f9fa;
+}
+
+.practice-explanation {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Custom styles for diagrams */
+.diagram-container {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid var(--textbook-color-border);
+  border-radius: 6px;
+  background-color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .textbook-section {
+    padding: 0.75rem;
+  }
+  
+  .learning-objectives-container,
+  .key-takeaways-container,
+  .practice-questions-container {
+    padding: 0.75rem;
+  }
+}

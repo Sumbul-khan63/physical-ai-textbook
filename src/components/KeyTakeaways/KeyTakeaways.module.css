@@ -1,0 +1,19 @@
+.keyTakeawaysList {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #f0f8f0;
+  border-left: 4px solid #34a853;
+  padding: 1rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.keyTakeawayItem {
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
+  position: relative;
+}
+
+.keyTakeawayItem::before {
+  content: '💡 ';
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#f8f9fa" rx="10"/>
+
+  <!-- Human figure -->
+  <circle cx="60" cy="50" r="15" fill="#3498db"/>
+  <path d="M60 65 L60 95" stroke="#3498db" stroke-width="4" stroke-linecap="round"/>
+  <line x1="45" y1="80" x2="75" y2="80" stroke="#3498db" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="95" x2="45" y2="120" stroke="#3498db" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="95" x2="75" y2="120" stroke="#3498db" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Robot figure -->
+  <rect x="120" y="40" width="30" height="40" fill="#e74c3c" rx="5"/>
+  <rect x="125" y="30" width="20" height="10" fill="#2c3e50" rx="3"/>
+  <circle cx="127" cy="35" r="2" fill="#f1c40f"/>
+  <circle cx="143" cy="35" r="2" fill="#f1c40f"/>
+  <line x1="135" y1="80" x2="135" y2="120" stroke="#e74c3c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="95" x2="150" y2="95" stroke="#e74c3c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="135" y1="120" x2="120" y2="145" stroke="#e74c3c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="135" y1="120" x2="150" y2="145" stroke="#e74c3c" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Communication arrows -->
+  <line x1="75" y1="50" x2="120" y2="50" stroke="#2ecc71" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrowhead)"/>
+  <line x1="150" y1="65" x2="85" y2="65" stroke="#2ecc71" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrowheads definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+
+  <!-- Speech bubbles -->
+  <path d="M75 35 Q85 30 90 40 Q95 30 105 35 Q100 50 90 45 Q85 55 75 50 Z" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <path d="M125 25 Q135 20 140 30 Q145 20 155 25 Q150 40 140 35 Q135 45 125 40 Z" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+
+  <!-- Text label -->
+  <text x="100" y="185" font-family="Arial" font-size="10" fill="#7f8c8d" text-anchor="middle">Human-Robot Interaction</text>
+</svg>
