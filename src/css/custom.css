@@ -6,26 +6,48 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2d5a87;
-  --ifm-color-primary-dark: #274e79;
-  --ifm-color-primary-darker: #254a71;
-  --ifm-color-primary-darkest: #1e3c5c;
-  --ifm-color-primary-light: #336295;
-  --ifm-color-primary-lighter: #35679d;
-  --ifm-color-primary-lightest: #3b72ac;
+  --ifm-color-primary: rgba(120, 190, 225, 0.75); /* Slightly darker light blue */
+  --ifm-color-primary-dark: rgba(105, 175, 210, 0.75);
+  --ifm-color-primary-darker: rgba(90, 160, 195, 0.75);
+  --ifm-color-primary-darkest: rgba(75, 145, 180, 0.75);
+  --ifm-color-primary-light: rgba(145, 205, 235, 0.75);
+  --ifm-color-primary-lighter: rgba(170, 220, 245, 0.75);
+  --ifm-color-primary-lightest: rgba(195, 235, 255, 0.75);
+
+  /* Info colors */
+  --ifm-color-info: rgba(120, 190, 225, 0.75);
+  --ifm-color-info-dark: rgba(105, 175, 210, 0.75);
+  --ifm-color-info-darker: rgba(90, 160, 195, 0.75);
+  --ifm-color-info-darkest: rgba(75, 145, 180, 0.75);
+  --ifm-color-info-light: rgba(145, 205, 235, 0.75);
+  --ifm-color-info-lighter: rgba(170, 220, 245, 0.75);
+  --ifm-color-info-lightest: rgba(195, 235, 255, 0.75);
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.12);
 }
+
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #3f77e8;
-  --ifm-color-primary-dark: #3361c4;
-  --ifm-color-primary-darker: #2c55ac;
-  --ifm-color-primary-darkest: #254894;
-  --ifm-color-primary-light: #4a86eb;
-  --ifm-color-primary-lighter: #5f95ee;
-  --ifm-color-primary-lightest: #74a4f1;
+  --ifm-color-primary: rgba(173, 216, 230, 0.7); /* Light-blue transparent */
+  --ifm-color-primary-dark: rgba(157, 200, 218, 0.7); /* Darker light-blue transparent */
+  --ifm-color-primary-darker: rgba(141, 184, 206, 0.7); /* Even darker light-blue transparent */
+  --ifm-color-primary-darkest: rgba(125, 168, 194, 0.7); /* Darkest light-blue transparent */
+  --ifm-color-primary-light: rgba(189, 232, 242, 0.7); /* Lighter light-blue transparent */
+  --ifm-color-primary-lighter: rgba(205, 240, 250, 0.7); /* Even lighter light-blue transparent */
+  --ifm-color-primary-lightest: rgba(221, 248, 255, 0.7); /* Lightest light-blue transparent */
+
+  /* Additional Infima blue color overrides for dark mode */
+  --ifm-color-info: rgba(173, 216, 230, 0.7); /* Info color (usually blue) replaced with light-blue */
+  --ifm-color-info-dark: rgba(157, 200, 218, 0.7);
+  --ifm-color-info-darker: rgba(141, 184, 206, 0.7);
+  --ifm-color-info-darkest: rgba(125, 168, 194, 0.7);
+  --ifm-color-info-light: rgba(189, 232, 242, 0.7);
+  --ifm-color-info-lighter: rgba(205, 240, 250, 0.7);
+  --ifm-color-info-lightest: rgba(221, 248, 255, 0.7);
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
